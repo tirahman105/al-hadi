@@ -35,3 +35,10 @@ function message(){
         success.style.display = 'none';
     }, 4000);
 }
+
+
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}

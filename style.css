@@ -8,9 +8,12 @@
     height: 60px;
     width: 60px;
  }
- .card-body:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+ .course-card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
  }
+ /* .card-body:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+ } */
  .card-icon{
     font-size: 30px;
  }
@@ -21,7 +24,7 @@
    background-color: #fff;
    border-radius: 6px;
    position: absolute;
-   top: 50%;
+   top: 150%;
    left: 50%;
    transform: translate(-50%,-50%) scale(0.1);
    text-align: center;
@@ -41,5 +44,6 @@
  .message .danger {
    display: none;
  }
+ 
 
  /* https://docs.google.com/forms/d/e/1FAIpQLSfGd_wVbyeIHGij6_dznBRzzvZgJpEIK2WQmeT-cdgGwcyNHg/viewform?usp=pp_url&entry.643684370=Anonna&entry.1774744195=25&entry.457213724=Female&entry.1320183552=Jannatul&entry.1833257423=N/A&entry.940144200=anonnotabd@gmail.com&entry.818136944=11111&entry.617282288=Dhaka&entry.340847854=Bd&entry.1569515892=Basic+Quran */
