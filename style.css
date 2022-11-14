@@ -14,3 +14,32 @@
  .card-icon{
     font-size: 30px;
  }
+
+ .popup{
+   width: 400px;
+   height: 300px;
+   background-color: #fff;
+   border-radius: 6px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%) scale(0.1);
+   text-align: center;
+   padding: 0 30px 30px;
+   visibility: hidden;
+   transition: transform 0.3s;
+   
+ }
+ .open-popup{
+   visibility: visible;
+   transform: translate(-50%,-50%) scale(1);
+ }
+
+ .message .success {
+   display: none;
+ }
+ .message .danger {
+   display: none;
+ }
+
+ /* https://docs.google.com/forms/d/e/1FAIpQLSfGd_wVbyeIHGij6_dznBRzzvZgJpEIK2WQmeT-cdgGwcyNHg/viewform?usp=pp_url&entry.643684370=Anonna&entry.1774744195=25&entry.457213724=Female&entry.1320183552=Jannatul&entry.1833257423=N/A&entry.940144200=anonnotabd@gmail.com&entry.818136944=11111&entry.617282288=Dhaka&entry.340847854=Bd&entry.1569515892=Basic+Quran */
