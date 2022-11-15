@@ -19,9 +19,7 @@
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <!-- <div class="carousel-item active">
-            <img src="images/web_bannar.jpg" class="d-block w-100" alt="...">
-          </div> -->
+          
           <div class="carousel-item active">
             <img src="images/banner1.jpg" class="d-block w-100" alt="...">
           </div>
@@ -39,43 +37,49 @@
     <!--  header ends here   -->
 
     <main class="container row mx-auto p-4">
+
+      <!-- top course items starts -->
+
+
       <div class="row">
         <div class="container">
+          <h3 class="text-center">Curriculum</h3>
+          
           <div class="row row-cols-2 row-cols-lg-3">
            
+            
+          <div class="col-4 col-lg-2"><div class="card card-below-header">
+            <div class="card-body course-card " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quranModal">
+              <div class="card-icon"><img class="course-icon" src="images/quran.png" alt="quran icon"></div>
+                <div class="card-text h6">Quran</div>
+            </div>
+        </div></div>
             <div class="col-4 col-lg-2"><div class="card card-below-header">
-              <div class="card-body course-card">
-                  <div class="card-icon"><img class="course-icon" src="images/quran.png" alt="quran icon"></div>
-                  <div class="card-text h6">Quran</div>
-                  <!-- -Qayda JuzAmma,Holy Quran -->
-              </div>
-          </div></div>
-            <div class="col-4 col-lg-2"><div class="card card-below-header">
-              <div class="card-body course-card">
+              <div class="card-body course-card " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tajweedModal">
                   <div class="card-icon"><img class="course-icon" src="images/tajweed.png" alt="tajweed icon"></div>
                   <div class="card-text h6">Tajweed</div>
               </div>
           </div></div>
             <div class="col-4 col-lg-2"><div class="card card-below-header">
-              <div class="card-body course-card">
+              <div class="card-body course-card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#duaModal">
                   <div class="card-icon"><img class="course-icon" src="images/dua.png" alt="hand icon"></div>
                   <div class="card-text h6">Dua</div>
               </div>
           </div></div>
             <div class="col-4 col-lg-2"><div class="card card-below-header">
-              <div class="card-body course-card">
+              <div class="card-body course-card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#salatModal">
                   <div class="card-icon"><img class="course-icon" src="images/salat.png" alt="salat icon"></div>
                   <div class="card-text h6">Salat learning</div>
               </div>
           </div></div>
             <div class="col-4 col-lg-2"><div class="card card-below-header">
-              <div class="card-body course-card">
+              <div class="card-body course-card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quranmushkModal">
                   <div class="card-icon"><img class="course-icon" src="images/mashk.png" alt=" icon"></div>
                   <div class="card-text h6">Quran Mashk</div>
               </div>
           </div></div>
             <div class="col-4 col-lg-2"><div class="card card-below-header">
-              <div class="card-body course-card">
+              <div class="card-body course-card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#prophetstoryModal">
                   <div class="card-icon"><img class="course-icon" src="images/story.png" alt="icon"></div>
                   <div class="card-text h6">Prophet Story</div>
               </div>
@@ -83,47 +87,402 @@
           </div>
         </div>
       </div> <br>
+       <!-- top course items ends -->
+
+
+
+       <!-- all modals of top courses -->
+
+      <!--  Quran Modal -->
+       <div class="modal fade" id="quranModal" tabindex="-1" aria-labelledby="quranModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="quranModalLabel">Curriculum</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body course-card">
+                <div class="card-icon"><img class="course-modal-img" src="images/quran.png" alt="tajweed icon"></div>
+                <div class="card-text h3">Quran</div>
+                <ul class="list-group">
+                  
+                  <li class="list-group-item">1. Basic Quran Learning</li>
+                  <li class="list-group-item">2. Hifzul Quran Learning</li>
+                  <li class="list-group-item"><button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Enroll here</button></li>
+                </ul>
+               
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  tajweed Modal -->
+          <div class="modal fade" id="tajweedModal" tabindex="-1" aria-labelledby="tajweedModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="tajweedModalLabel">Curriculum</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="card-body course-card">
+                    <div class="card-icon"><img class="course-modal-img" src="images/tajweed.png" alt="tajweed icon"></div>
+                    <div class="card-text h3">Tajweed</div>
+                    <ul class="list-group">
+                      
+                      <li class="list-group-item">1. The practice of Tajwid is tested with the Qaida</li>
+                      <li class="list-group-item">2. Learning to read by fully applying tajveed in Quran Sharif.</li>
+                      <li class="list-group-item"><button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Enroll here</button></li>
+                    </ul>
+                   
+                </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+            <!--  Dua Modal -->
+       <div class="modal fade" id="duaModal" tabindex="-1" aria-labelledby="duaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="duaModalLabel">Curriculum</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body course-card">
+                <div class="card-icon"><img class="course-modal-img" src="images/dua.png" alt="tajweed icon"></div>
+                <div class="card-text h3">Dua</div>
+                <ul class="list-group">
+                  
+                  <li class="list-group-item">1.Essential masnun prayer for life.</li>
+                  <li class="list-group-item">2.40 Hadith, Ayatul Kursi and Asmaul Husna</li>
+                   <li class="list-group-item"><button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Enroll here</button></li>
+                </ul>
+               
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--  Salat Modal -->
+      <div class="modal fade" id="salatModal" tabindex="-1" aria-labelledby="salatModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="salatModalLabel">Curriculum</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card-body course-card">
+                <div class="card-icon"><img class="course-modal-img" src="images/salat.png" alt="tajweed icon"></div>
+                <div class="card-text h3">Salat</div>
+                <ul class="list-group">
+                  
+                  <li class="list-group-item">1.Sahih teaches the method of Namaz in a pure way. </li>
+                  <li class="list-group-item"><button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Enroll here</button></li>
+                </ul>
+               
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+           <!--  Quran mushk Modal -->
+           <div class="modal fade" id="quranmushkModal" tabindex="-1" aria-labelledby="quranmushkModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="quranmushkLabel">Curriculum</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="card-body course-card">
+                    <div class="card-icon"><img class="course-modal-img" src="images/mashk.png" alt="mushk icon"></div>
+                    <div class="card-text h3">Quran Mushk</div>
+                    <ul class="list-group">
+                      
+                      <li class="list-group-item">1. Practice reading backwards every day </li>
+                      <li class="list-group-item"><button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Enroll here</button></li>
+                    </ul>
+                   
+                </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <!--  Quran mushk Modal -->
+           <div class="modal fade" id="prophetstoryModal" tabindex="-1" aria-labelledby="prophetstoryModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="prophetstoryLabel">Curriculum</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="card-body course-card">
+                    <div class="card-icon"><img class="course-modal-img"  src="images/story.png" alt="mushk icon"></div>
+                    <div class="card-text h3">Prophet story</div>
+                    <ul class="list-group">
+                      
+                      <li class="list-group-item">1 Making jokes about the events of notable prophets.</li>
+                      <li class="list-group-item">2. Listen to all educational advice.</li>
+                      <li class="list-group-item"><button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Enroll here</button></li>
+                    </ul>
+                   
+                </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
 
       <!-- course outline starts -->
 
       <div class="col-md-6 p-4 border mt-4">
 
-        <!-- <p class="h3">Curriculums </p>
-        <div class="border">
-          <ul >
-            <li class="list-group-item mt-2 mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Quran-Qayda JuzAmma,Holy Quran</li>
-            <li class="list-group-item mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Tajweed learning</li>
-            <li class="list-group-item mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Dua</li>
-            <li class="list-group-item mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Salat learning </li>
-            <li class="list-group-item mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Quran Mashk </li>
-            <li class="list-group-item mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Prophetic Stories</li>
-            <li class="list-group-item mb-2"> <i class="fa-solid fa-circle-check" style="color: green;"></i> Mashk </li>
-          </ul>
-        </div> -->
-
-
-
-         
-        <!-- <p class="h3 mt-3 mb-3 text-center"> Course Specialities : </p> -->
+        
         <p class="h3 bg-warning">  <strong> Course Specialities : </strong>  </p>
           <ul class="list-group">
-            <li class="list-group-item"> <i class="fa-solid fa-check " style="color: green"></i> 1.Tajweed slides and Ebooks are provided</li>
-            <li class="list-group-item"><i class="fa-solid fa-check" style="color: green"></i>  2• Certificate given on completion of Qaidah & Juz-Amma </li>
-            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 3•Middle Eastern Teaching Method for better pronounciation and recitation</li>
-            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 4•Class taken by experienced female/male teachers</li>
-            <li class="list-group-item"><i class="fa-solid fa-check" style="color: green"></i>  5•Abroad students can enroll </li>
-            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 6•Timing on student's convenience</li>
-            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 7•One On One Class for younger kids</li>
-            <li class="list-group-item"><i class="fa-solid fa-check" style="color: green"></i>  8•Easy & fun way teaching </li>
+            <li class="list-group-item"> <i class="fa-solid fa-check " style="color: green"></i> 1. Tajweed slides and Ebooks are provided</li>
+            <li class="list-group-item"><i class="fa-solid fa-check" style="color: green"></i>  2. Certificate given on completion of Qaidah & Juz-Amma </li>
+            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 3. Middle Eastern Teaching Method for better pronounciation and recitation</li>
+            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 4. Class taken by experienced female/male teachers</li>
+            <li class="list-group-item"><i class="fa-solid fa-check" style="color: green"></i>  5. Abroad students can enroll </li>
+            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 6. Timing on student's convenience</li>
+            <li class="list-group-item"> <i class="fa-solid fa-check" style="color: green"></i> 7. One On One Class for younger kids</li>
+            <li class="list-group-item"><i class="fa-solid fa-check" style="color: green"></i>  8. Easy & fun way teaching </li>
            
         
           </ul>
-          <!-- <button type="submit"  value="Submit" class="btn btn-success btn-lg">Please inbox for further queries</button>  -->
-        <p>
+        
 
-          <div class="text-center">
-              <h2 class="p-4">Our Facebook page</h2>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Falhadiislamiconlineacademy&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+          <div class="p-4 border">
+
+            <div class="row">
+              <div class="col-sm-6 mb-3">
+                <div class="card" >
+                  <img src="images/hifjul quran.jpg" class="card-img-top" alt="...">
+                  <div class="card-body bg-info">
+                    <h5 class="card-title">Hifzul Quran</h5>
+                    <p class="card-text">Quran Memorization</p>
+                   </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Class Type: One to One </li>
+                    <li class="list-group-item">Class Time: Student's convenient time</li>
+                    <li class="list-group-item text-start">
+                      <p><i class="fa-solid fa-circle-check text-success"></i> Easy and fun learning</p>
+                      <p><i class="fa-solid fa-circle-check text-success"></i> Lession specially designed for kids</p>
+                      <p><i class="fa-solid fa-circle-check text-success"></i> Certificate of course completion</p>
+                    </li>
+                   
+                  </ul>
+                  <div class="card-body">
+                    <button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Get started </button>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card" >
+                  <img src="images/Basic quran.jpg" class="card-img-top" alt="...">
+                  <div class="card-body bg-info">
+                    <h5 class="card-title ">Basic Quran</h5>
+                    <p class="card-text">Quran Learning</p>
+                   </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"> Class Type: One to One </li>
+                    <li class="list-group-item">Class Time: Student's convenient time</li> <li class="list-group-item text-start">
+                      <p><i class="fa-solid fa-circle-check text-success"></i> Easy and fun learning</p>
+                      <p><i class="fa-solid fa-circle-check text-success"></i> Lession specially designed for kids</p>
+                      <p><i class="fa-solid fa-circle-check text-success"></i> Certificate of course completion</p>
+                    </li>
+                   
+                  </ul>
+                  <div class="card-body">
+                    <button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Get started </button>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+  
+              <!-- Button trigger modal -->
+  
+              <div class="border p-2 bg-light">
+  
+                  
+                  <div class="row mb-4 text-center">
+                    <button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">
+                      <p class="h2"> Registration Form</p>
+                    
+                      </button>
+                    <p class="h4"><i class="fa-solid fa-phone"></i> CALL FOR ENROLLMENT</p>
+                    <p class="h2" > <a href="tel:+88001851312431" >+8801851312431 </a> </p>
+                  
+                    
+                  </div>
+  
+               
+              </div>
+  
+              
+  
+           
+  
+  
+  
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModal" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="registrationModalLabel">Registration form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container ">
+  
+                              <!-- <h1 class="text-center">Registration form</h1> -->
+                              <form id="formValidation" class="text-start" action="https://docs.google.com/forms/d/e/1FAIpQLSfGd_wVbyeIHGij6_dznBRzzvZgJpEIK2WQmeT-cdgGwcyNHg/formResponse" target="hidden_iframe">
+                                 
+                                  <div class="mb-3">
+                                    <label for="studentName" class="form-label">Name of Student</label>
+                                    <input type="text" name="entry.643684370" class="form-control" id="studentName" placeholder="Input student's name" >
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="age" class="form-label">Age</label>
+                                    <input type="text" name="entry.1774744195" class="form-control" id="age" placeholder="Input student's age" >
+                                  </div>
+                                   
+                                  <div class="row mb-3">
+                                    
+                                    <label for="inputName3" class="col-sm-4 col-form-label">Gender</label>
+                                    <div class="col-sm-8">
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="entry.457213724" id="genderMale" value="Male">
+                                        <label class="form-check-label" for="genderMale">Male</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="entry.457213724" id="genderFemale" value="Female">
+                                        <label class="form-check-label" for="genderFemale">Female</label>
+                                      </div>
+                                    </div>
+                                  </div> 
+  
+                                  
+                                    <div class="mb-3">
+                                      <label for="parentsName" class="form-label">Name of Parents</label>
+                                      <input type="text" name="entry.1320183552" class="form-control" id="parentsName" placeholder="Input parent's name" >
+                                    </div>
+  
+                                    <div class="mb-3">
+                                      <label for="fbLink" class="form-label">Facebook profile link (if any)</label>
+                                      <input type="text" name="entry.1833257423" class="form-control" id="fbLink" placeholder="Input Facebook profile link" >
+                                    </div>
+  
+                                    <div class="mb-3">
+                                      <label for="email" class="form-label">Email</label>
+                                      <input type="email" name="entry.940144200" class="form-control" id="email" placeholder="Input a valid email address" >
+                                    </div>
+  
+                                    <div class="mb-3">
+                                      <label for="mobile" class="form-label">Mobile no.</label>
+                                      <input type="tel" name="entry.818136944" class="form-control" id="mobile" placeholder="Input a valid mobile no." >
+                                    </div>
+  
+                                    <div class="mb-3">
+                                      <label for="address" class="form-label">Address</label>
+                                      <input type="text" name="entry.617282288" class="form-control" id="address" placeholder="Input home address" >
+                                    </div>
+  
+                                    <div class="mb-3">
+                                      <label for="country" class="form-label">Country</label>
+                                      <input type="text" name="entry.340847854" class="form-control" id="country" placeholder="Input Country " >
+                                    </div>
+                                    
+                                
+                                  <div class="mb-3">
+                                    <label for="course"  class="col-form-label">Which course do you/your kid want to enroll in?</label>
+                                    
+                                        <select class="form-select"  name="entry.1569515892" id="course" aria-label="Default select example" >
+                                            <option selected>select Course</option>
+                                            <option value="Basic Quran">Basic Quran</option>
+                                            <option value="Hifzul Quran">Hifzul Quran</option>
+                                         </select>
+                                    
+                                  </div>
+                                  
+                                 
+                                
+                                  <div class="message text-center">
+                                    <div class="success text-success h2" id="success">Your registration is successfull!</div>
+                                    <div class="danger text-danger" id="danger"> Fields can't be empty!</div>
+                                  </div>
+                                  <button type="submit" id="myForm"  value="Submit" class="btn btn-success btn-lg" onclick="message()" >Register</button>
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="openPopup()">Close</button>
+                                </form>
+                                <iframe id="hidden_iframe"  name="hidden_iframe" style ="display: none;"></iframe>
+                          
+                              </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+  
+  
+                   
+  
+  
+                   
+                   
+  
+  
+               
+  
+           
+                    
+              
+            
+            </div> 
 
           
 
@@ -135,211 +494,98 @@
       <!-- enroll image -->
       <div class="col-md-6 p-4 text-center ">
 
-        
-        <div class="p-4 border">
 
-          <div class="row">
-            <div class="col-sm-6 mb-3">
-              <div class="card" >
-                <img src="images/hifjul quran.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-info">
-                  <h5 class="card-title">Hifzul Quran</h5>
-                  <p class="card-text">Quran Memorization</p>
-                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Class Type: One to One </li>
-                  <li class="list-group-item">Class Time: Student's convenient time</li>
-                  <li class="list-group-item text-start">
-                    <p><i class="fa-solid fa-circle-check text-success"></i> Easy and fun learning</p>
-                    <p><i class="fa-solid fa-circle-check text-success"></i> Lession specially designed for kids</p>
-                    <p><i class="fa-solid fa-circle-check text-success"></i> Certificate of course completion</p>
-                  </li>
-                 
-                </ul>
-                <div class="card-body">
-                  <button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Get started </button>
-                  
-                </div>
-              </div>
+        <!-- facebook page  -->
+
+        <div class="text-center">
+          <h2 class="p-4">Our Facebook page</h2>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Falhadiislamiconlineacademy&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+
+      <div class="row">
+        <h3 class="pb-3 text-center heading-text">Student's Review</h3>
+        <div class="row">
+          <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             
             </div>
-            <div class="col-sm-6">
-              <div class="card" >
-                <img src="images/Basic quran.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-info">
-                  <h5 class="card-title ">Basic Quran</h5>
-                  <p class="card-text">Quran Learning</p>
-                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"> Class Type: One to One </li>
-                  <li class="list-group-item">Class Time: Student's convenient time</li> <li class="list-group-item text-start">
-                    <p><i class="fa-solid fa-circle-check text-success"></i> Easy and fun learning</p>
-                    <p><i class="fa-solid fa-circle-check text-success"></i> Lession specially designed for kids</p>
-                    <p><i class="fa-solid fa-circle-check text-success"></i> Certificate of course completion</p>
-                  </li>
-                 
-                </ul>
-                <div class="card-body">
-                  <button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">Get started </button>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card shadow review-card p-4">
                   
-                </div>
-              </div>
-            </div>
-            
-          </div>
-
-            <!-- Button trigger modal -->
-
-            <div class="border p-2 bg-light">
-
-                
-                <div class="row mb-4">
-                  <button type="button" class="btn btn-success btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#registrationModal">
-                    <p class="h2"> Registration Form</p>
-                    <!-- <p> Seat limited to only 3 persons</p> -->
-                    </button>
-                  <p class="h4"><i class="fa-solid fa-phone"></i> Call us for more information </p>
-                  <p class="h2" > <a href="tel:+88001851312431" >+8801851312431 </a> </p>
-                  <!-- <p class="text-danger h3"> Please contact us & then complete your payment before registration.</p> -->
-                  <!-- <p>Send money through bkash. Mention your Name & BM&DC no. on reference.</p> -->
-                  
-                </div>
-
-                <!-- <img class="img-fluid" src="images/hands_on_banner-3.jpg" alt=""> -->
-            </div>
-
-            
-
-         
-
-
-
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="registrationModalLabel">Registration form</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="container ">
-
-                            <!-- <h1 class="text-center">Registration form</h1> -->
-                            <form id="formValidation" class="text-start" action="https://docs.google.com/forms/d/e/1FAIpQLSfGd_wVbyeIHGij6_dznBRzzvZgJpEIK2WQmeT-cdgGwcyNHg/formResponse" target="hidden_iframe">
-                               
-                                <div class="mb-3">
-                                  <label for="studentName" class="form-label">Name of Student</label>
-                                  <input type="text" name="entry.643684370" class="form-control" id="studentName" placeholder="Input student's name" >
-                                </div>
-                                <div class="mb-3">
-                                  <label for="age" class="form-label">Age</label>
-                                  <input type="text" name="entry.1774744195" class="form-control" id="age" placeholder="Input student's age" >
-                                </div>
-                                 
-                                <div class="row mb-3">
-                                  
-                                  <label for="inputName3" class="col-sm-4 col-form-label">Gender</label>
-                                  <div class="col-sm-8">
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="entry.457213724" id="genderMale" value="Male">
-                                      <label class="form-check-label" for="genderMale">Male</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="entry.457213724" id="genderFemale" value="Female">
-                                      <label class="form-check-label" for="genderFemale">Female</label>
-                                    </div>
-                                  </div>
-                                </div> 
-
-                                
-                                  <div class="mb-3">
-                                    <label for="parentsName" class="form-label">Name of Parents</label>
-                                    <input type="text" name="entry.1320183552" class="form-control" id="parentsName" placeholder="Input parent's name" >
-                                  </div>
-
-                                  <div class="mb-3">
-                                    <label for="fbLink" class="form-label">Facebook profile link (if any)</label>
-                                    <input type="text" name="entry.1833257423" class="form-control" id="fbLink" placeholder="Input Facebook profile link" >
-                                  </div>
-
-                                  <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" name="entry.940144200" class="form-control" id="email" placeholder="Input a valid email address" >
-                                  </div>
-
-                                  <div class="mb-3">
-                                    <label for="mobile" class="form-label">Mobile no.</label>
-                                    <input type="tel" name="entry.818136944" class="form-control" id="mobile" placeholder="Input a valid mobile no." >
-                                  </div>
-
-                                  <div class="mb-3">
-                                    <label for="address" class="form-label">Address</label>
-                                    <input type="text" name="entry.617282288" class="form-control" id="address" placeholder="Input home address" >
-                                  </div>
-
-                                  <div class="mb-3">
-                                    <label for="country" class="form-label">Country</label>
-                                    <input type="text" name="entry.340847854" class="form-control" id="country" placeholder="Input Country " >
-                                  </div>
-                                  
-                              
-                                <div class="mb-3">
-                                  <label for="course"  class="col-form-label">Which course do you/your kid want to enroll in?</label>
-                                  
-                                      <select class="form-select"  name="entry.1569515892" id="course" aria-label="Default select example" >
-                                          <option selected>select Course</option>
-                                          <option value="Basic Quran">Basic Quran</option>
-                                          <option value="Hifzul Quran">Hifzul Quran</option>
-                                       </select>
-                                  
-                                </div>
-                                
-                               
-                              
-                                <div class="message text-center">
-                                  <div class="success text-success h2" id="success">Your registration is successfull!</div>
-                                  <div class="danger text-danger" id="danger"> Fields can't be empty!</div>
-                                </div>
-                                <button type="submit" id="myForm"  value="Submit" class="btn btn-success btn-lg" onclick="message()" >Register</button>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="openPopup()">Close</button>
-                              </form>
-                              <iframe id="hidden_iframe"  name="hidden_iframe" style ="display: none;"></iframe>
-                        
-                            </div>
-                        </div>
-                        
-                      </div>
+                  <div class="card-body ">
+                    <div class="quote pb-2">
+                      <span> <i class="fa-solid fa-quote-left fa-2xl quote-icon"></i></span>
+                      
+                    </div>
+                   
+                    <p class="card-text pt-3">Thank you very much to this academy. My daughter Mimha learned Arabic reading here in just 6 months, Alhamdulillah. <br> You can definitely and safely give your children , InshaAllah.</p>
+                    <h5 class="card-title pt-2">Lovna Islam</h5>
+                    <div class="star">
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
                     </div>
                   </div>
-
-
-                 
-
-
-                  <!-- <div class="col-md-6 p-4">
-                   
-
-                      <div class="alert alert-warning alert-dismissible fade show popup p-4" id="popup" role="alert">
-                        <h1>Please Give Like to our Facebook page</h1>
-                      <a href="https://web.facebook.com/alhadiislamiconlineacademy" class="btn btn-primary" role="button">Like our facebook page</a>
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> <br>
-                        <button class="btn" type="button" onclick="closePopup">Close</button>
-                      </div>
-                     
-                      
-                    
-                  </div> -->
-                 
-
-
-             
-
-         
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card  review-card p-4">
                   
-            
-          
-          </div> 
+                  <div class="card-body">
+                    <div class="quote pb-2">
+                      <span> <i class="fa-solid fa-quote-left fa-2xl quote-icon"></i></span>
+                      
+                    </div>
+                   
+                    <p class="card-text pt-3">Alhamdulillah, Mohammad is very happy to study in your academy, have never seen him enjoy studying so much before, and he likes his teacher very much, I am very happy to have your academy by my side. May Allah bless your academy, Amen</p>
+                    <h5 class="card-title pt-2">Our youngest student Muhammad</h5>
+                    <div class="star">
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card  review-card p-4">
+                  
+                  <div class="card-body">
+                    <div class="quote pb-2">
+                      <span> <i class="fa-solid fa-quote-left fa-2xl quote-icon"></i></span>
+                      
+                    </div>
+                   
+                    <p class="card-text pt-3">My younger brother is starting to study here, Alhamdulillah.
+                      He is reading very happily. We are very happy to see it. It is a safe and quality institution. Thanks to this academy...</p>
+                    <h5 class="card-title pt-2">Emtiyajur Rahman Emon</h5>
+                    <div class="star">
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+        
+    
         </div>       
       </div>
 

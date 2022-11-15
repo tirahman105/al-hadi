@@ -2,7 +2,7 @@ function message(){
     var Name = document.getElementById('studentName');
     var Age = document.getElementById('age');
     var Parentname = document.getElementById('parentsName');
-    var FBlink = document.getElementById('fbLink');
+    // var FBlink = document.getElementById('fbLink');
     var Email = document.getElementById('email');
     var Mobile = document.getElementById('mobile');
     var Address = document.getElementById('address');
@@ -11,7 +11,7 @@ function message(){
     const success = document.getElementById('success');
     const danger = document.getElementById('danger');
 
-    if(Name.value === '' || Age.value === '' || Parentname.value === '' || FBlink.value === '' || Email.value === '' || Mobile.value === '' || Address.value === '' || Country.value === '' || Course.value === '' ){
+    if(Name.value === '' || Age.value === '' || Parentname.value === '' || Email.value === '' || Mobile.value === '' || Address.value === '' || Country.value === '' || Course.value === '' ){
         danger.style.display = 'block'; 
     } 
 
@@ -20,7 +20,6 @@ function message(){
             Name.value = '';
             Age.value = '';
             Parentname.value = '';
-            FBlink.value = ''; 
             Email.value = '';
             Mobile.value = '';
             Address.value = '';

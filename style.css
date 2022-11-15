@@ -18,6 +18,12 @@
     font-size: 30px;
  }
 
+
+ .course-modal-img{
+   height: 160px;
+   width: 160px;
+ }
+
  .popup{
    width: 400px;
    height: 300px;
